@@ -1,9 +1,13 @@
 import React, { useState } from 'react'
 import { FaBars } from "react-icons/fa";
-import techoBlanco from '../../img/techoBlanco.png'
 import { Container, LogoContainer, Menu, MenuItem, MobileIcon, Wrapper } from './NavBar.elements';
-import '../../css/NavBar.css'
 import { IconContext } from 'react-icons/lib';
+
+import techoBlanco from '../../img/techoBlanco.png'
+import '../../css/NavBar.css'
+
+
+
 export const NavBar = () => {
 
   const [showMobileMenu , setShowMobileMenu] =useState(false)
@@ -22,29 +26,21 @@ export const NavBar = () => {
         </MobileIcon>
 
         <Menu open={showMobileMenu}>
-          <MenuItem>
-            Inicio
+          <MenuItem onClick={()=>setShowMobileMenu(!showMobileMenu)}>
+            INICiO
           </MenuItem>
 
-          <MenuItem>
-            Areas
+          <MenuItem onClick={()=>setShowMobileMenu(!showMobileMenu)}>
+            AREAS
+          </MenuItem>
+          <MenuItem onClick={()=>setShowMobileMenu(!showMobileMenu)}>
+            HERRAMIENTAS
           </MenuItem>
 
-          <MenuItem>
+          <MenuItem onClick={()=>setShowMobileMenu(!showMobileMenu)}>
             Biblioteca TECHO
           </MenuItem>
 
-          <MenuItem>
-            Comites
-          </MenuItem>
-
-          <MenuItem>
-            Plan Estrategico
-          </MenuItem>
-
-          <MenuItem>
-            sg-sst
-          </MenuItem>
         </Menu>
         </IconContext.Provider>
       </Wrapper>

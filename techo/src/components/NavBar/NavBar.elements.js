@@ -4,6 +4,12 @@ export const Container = styled.div`
     width:100%;
     height:70px;
     background: #0092dd;
+    position:fixed;
+    z-index:2;
+    @media screen and (max-width:960px){
+        
+
+    }
 `;
 
 
@@ -14,6 +20,7 @@ export const Wrapper= styled.div`
     display:flex;
     flex-wrap:wrap;
     justify-content:space-around;
+    
 `;
 
 export const LogoContainer = styled.div`
@@ -38,7 +45,9 @@ export const Menu = styled.ul`
     display:flex;
     justify-content: flex-end;
     list-style:none;
-
+    z-index:2;
+    
+    
     @media screen and (max-width:960px){
         background: #0092dd;
         position:absolute;
@@ -49,7 +58,8 @@ export const Menu = styled.ul`
         justify-content:center;
         flex-direction:column;
         align-items:center;
-        transition:0.5s all ease
+        transition:0.9s all ease;
+        position:fixed;
     }
 `; 
 
@@ -64,10 +74,11 @@ export const MenuItem = styled.li`
     font-weight:700;
     cursor:pointer;
     color:white;
-    transition:0.5s all ease;
+    transition:0.4s ;
+    
 
     &:hover{
-        border-bottom: 2px solid white;
+        border-bottom: 4px solid #EA6D4F;
         color: rgba(195, 224, 250, 0.925);
     }
 
