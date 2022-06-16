@@ -1,0 +1,8 @@
+.back{
+    left: 2%;
+    top: calc(50%-70px)
+}
+.next{
+    right: 2%;
+    top: calc(50%-70px);
+}
