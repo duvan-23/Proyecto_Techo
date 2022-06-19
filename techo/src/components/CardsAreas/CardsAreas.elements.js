@@ -45,7 +45,7 @@ export const CardAreasContent = styled.div`
 `
 
 export const CardAreasTitle= styled.h3`
-    font-size:40px;
+    font-size:30px;
     font-weight:600;
     letter-spacing:0.04em;
     color:black;

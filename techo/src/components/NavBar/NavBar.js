@@ -5,6 +5,7 @@ import { IconContext } from 'react-icons/lib';
 
 import techoBlanco from '../../img/techoBlanco.png'
 import '../../css/NavBar.css'
+import { Link } from 'react-router-dom';
 
 
 
@@ -26,20 +27,27 @@ export const NavBar = () => {
         </MobileIcon>
 
         <Menu open={showMobileMenu}>
-          <MenuItem onClick={()=>setShowMobileMenu(!showMobileMenu)}>
-            INICiO
-          </MenuItem>
 
-          <MenuItem onClick={()=>setShowMobileMenu(!showMobileMenu)}>
-            AREAS
-          </MenuItem>
-          <MenuItem onClick={()=>setShowMobileMenu(!showMobileMenu)}>
-            HERRAMIENTAS
-          </MenuItem>
-
-          <MenuItem onClick={()=>setShowMobileMenu(!showMobileMenu)}>
-            Biblioteca TECHO
-          </MenuItem>
+          <Link to="/">
+            <MenuItem onClick={()=>setShowMobileMenu(!showMobileMenu)}>
+              INICiO
+            </MenuItem>
+          </Link>
+          <Link to="/areas/">
+            <MenuItem onClick={()=>setShowMobileMenu(!showMobileMenu)}>
+              AREAS
+            </MenuItem>
+          </Link>
+          <Link to="/herramientas/">
+            <MenuItem onClick={()=>setShowMobileMenu(!showMobileMenu)}>
+              HERRAMIENTAS
+            </MenuItem>
+          </Link>
+          <Link to="/biblioteca/">
+            <MenuItem onClick={()=>setShowMobileMenu(!showMobileMenu)}>
+              Biblioteca TECHO
+            </MenuItem>
+          </Link>
 
         </Menu>
         </IconContext.Provider>

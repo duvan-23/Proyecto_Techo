@@ -1,22 +1,23 @@
 // import { NavBar } from '../NavBar/NavBar'
 import Container from 'react-bootstrap/Container';   
 import { Row, Col, Grid } from 'react-bootstrap';
-import './styles.css';
 import { Link, useParams } from 'react-router-dom';
 import React, { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee,faExpand,faExternalLink } from '@fortawesome/free-solid-svg-icons'
 import Iframe from 'react-iframe'
 import $ from 'jquery';
+import './styles.css';
 const herramientas = () => {
 
   return (
-    <div>
+    <>
       {/* <NavBar pagina={"/herramientas"} /> */}
       {/* <Logout/> */}
 
-      <div  className="imagen" width="100">
-        <span className="titulo">HERRAMIENTAS</span>
+      <div className='headerTools'>
+        <img className='imgTools' src='https://fondosmil.com/fondo/38782.jpg'/>
+        <div className='textTools'>HERRAMIENTAS</div>
       </div>
       <Container style={{position: 'relative'}}>
         <Row style={{margin: '50px 0px 0px 0px'}}>
@@ -41,7 +42,7 @@ const herramientas = () => {
           </Col>
         </Row>  
       </Container>              
-    </div>
+    </>
 
   );
 };

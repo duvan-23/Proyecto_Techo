@@ -24,7 +24,7 @@ export const Wrapper= styled.div`
 `;
 
 export const LogoContainer = styled.div`
-    margin-left:0.5rem;
+    
     display:flex;
     align-items:center;
     font-size:1.2rem;
@@ -34,7 +34,7 @@ export const LogoContainer = styled.div`
        &:nth-child(2){
            color:white;
            font-weight:500;
-           font-size:1.3rem;
+           font-size:2rem;
            
        }
    }
@@ -70,7 +70,7 @@ export const MenuItem = styled.li`
     align-items:center;
     height:100%;
     padding:0.5rem 2.5rem;
-    font-size:1.2rem;
+    font-size:2rem;
     font-weight:700;
     cursor:pointer;
     color:white;
