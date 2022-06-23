@@ -8,6 +8,8 @@ import { faCoffee,faExpand,faExternalLink } from '@fortawesome/free-solid-svg-ic
 import Iframe from 'react-iframe'
 import $ from 'jquery';
 import './styles.css';
+import { Title } from '../Title/Title';
+import { Header } from '../ComponenteReutilizable/Header';
 const herramientas = () => {
 
   return (
@@ -15,14 +17,14 @@ const herramientas = () => {
       {/* <NavBar pagina={"/herramientas"} /> */}
       {/* <Logout/> */}
 
-      <div className='headerTools'>
-        <img className='imgTools' src='https://fondosmil.com/fondo/38782.jpg'/>
-        <div className='textTools'>HERRAMIENTAS</div>
-      </div>
+      <Header
+      headerImg={'https://fondosmil.com/fondo/38782.jpg'}
+      title='HERRAMIENTAS'/>
       <Container style={{position: 'relative'}}>
         <Row style={{margin: '50px 0px 0px 0px'}}>
           <Col md={12} className="m" >
-            <h2 className="text-center" style={{margin: '0px 0px 20px 0px'}}>Agenda de Actividades</h2>
+            <Title
+            title='Agenda de actividades'/>
           </Col>
           <Col md={12} className="m justify-content-md-center fluid margen" onMouseEnter={() => $('#boton').removeClass("ocultar")} onMouseLeave={() => $('#boton').addClass("ocultar")}>
             {/* <a rel="noopener noreferrer" target="_blank" href="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%230092dd&ctz=America%2FBogota&src=bXRkdnFwa3Y2YjZxZ212ZjBhZWE2dmpxajRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%237CB342" className="float-end ocultar enlace"  id="boton"><FontAwesomeIcon className="icono" icon={faExternalLink} /></a> */}

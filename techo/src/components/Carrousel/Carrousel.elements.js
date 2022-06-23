@@ -19,7 +19,7 @@ export const CarrouselImg = styled.img`
         opacity:1;
 }
 @media screen and (min-width:900px){
-    height:500px;
+    height:530px;
 }
 `
 
