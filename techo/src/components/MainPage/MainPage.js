@@ -5,12 +5,14 @@ import { ContainerMainPage, ContainerMarca,  LogoMainPage, Phrase, TitleMainPage
 import logoTecho from '../../img/logoTecho.png'
 import { CardMainPage } from '../CardMainPage/CardMainPage'
 import { ContainerCardsAreas } from '../ContainerCardAreas/ContainerCardsAreas'
+import { Title } from '../Title/Title'
 
 export const MainPage = () => {
   return (
     <>
         <Carrousel/>
-        <TitleMainPage>TECHO URUGUAY</TitleMainPage>
+        <Title
+        title='TECHO URUGUAY'/>
         <CardMainPage
         title='¿Quiénes somos?'
         img='https://elheraldoslp.com.mx/wp-content/uploads/2020/03/4-1-6.jpg'
