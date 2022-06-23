@@ -6,6 +6,7 @@ import Herramientas from './components/herramientas/herramientas';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import { Areas } from './components/Areas/Areas';
 import AreaReutilizable from './components/AllAreas/AreaReutilizable';
+import { Footer } from './components/Footer/Footer';
 
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
 
         <Route path="/*" element = { <Navigate to='/' replace  /> } />
       </Routes>
-
+      <Footer/>
       </div>
 
     </BrowserRouter>

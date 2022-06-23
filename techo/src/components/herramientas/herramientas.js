@@ -37,7 +37,7 @@ const herramientas = () => {
         <Row style={{margin: '50px 0px 0px 0px'}}>
           {/* <Col md={1} className="m justify-content-md-center fluid mt-4" >
           </Col> */}
-          <Col md={12} className="m justify-content-md-center fluid margen archivos2" onMouseEnter={() => $('#boton2').removeClass("ocultar2")} onMouseLeave={() => $('#boton2').addClass("ocultar2")}>
+          <Col md={12} className="m justify-content-md-center fluid margen archivos2 mb-5" onMouseEnter={() => $('#boton2').removeClass("ocultar2")} onMouseLeave={() => $('#boton2').addClass("ocultar2")}>
             {/* <a rel="noopener noreferrer" target="_blank" href="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%230092dd&ctz=America%2FBogota&src=bXRkdnFwa3Y2YjZxZ212ZjBhZWE2dmpxajRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%237CB342" className="float-end ocultar enlace"  id="boton"><FontAwesomeIcon className="icono" icon={faExternalLink} /></a> */}
             <Iframe  className="archivos"src="https://drive.google.com/embeddedfolderview?id=1aI6tDW_Tp9quPEgo4B5pRAkhc-MMhRBY#grid" style={{color: 'white !important'}} width="100%" height="310" frameborder="0"  scrolling="si"></Iframe>
               <a rel="noopener noreferrer" target="_blank" href="https://drive.google.com/drive/folders/1aI6tDW_Tp9quPEgo4B5pRAkhc-MMhRBY?usp=sharing" className="ocultar2 enlace2" id="boton2"><FontAwesomeIcon className="icono" icon={faExternalLink} /></a>
