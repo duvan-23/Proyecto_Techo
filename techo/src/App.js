@@ -14,6 +14,7 @@ import { Voluntariado } from './components/AllAreas/Voluntariado';
 import { Viviendas } from './components/AllAreas/Viviendas';
 import { AdminFinanzas } from './components/AllAreas/AdminFinanzas';
 import { Investigacion } from './components/AllAreas/Investigacion';
+import { Legales } from './components/AllAreas/Legales';
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
         <Route path="/" element={<MainPage/>} />
         <Route path='/herramientas/'element={<Herramientas/>} />
         <Route path='/areas/' element={<Areas/>} />
-        <Route path='/areas/legales' element={<AreaReutilizable/>} />
+        <Route path='/areas/legales' element={<Legales/>} />
         <Route path='/areas/fondos' element={<DesarrolloFondos/>} />
         <Route path='/areas/comunicacion' element={<Comunicaciones/>} />
         <Route path='/areas/gestion' element={<GestionComunitaria/>} />
