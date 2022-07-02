@@ -18,7 +18,7 @@ export const Areas = () => {
     <SectionArea>
       <SectionContainerArea>
         <SectionAreaItems>
-        <Link to='/areas/legales'>
+        <Link to='/areas/adminyfinanzas'>
           <SectionImg src='https://i.pinimg.com/originals/db/b6/90/dbb69036f55e716526a6554a9514e3ed.jpg'/>
           <SectionHoverSubtilte>
             <SectionAreaSubtilte>Admin y Finanzas</SectionAreaSubtilte>
@@ -37,7 +37,7 @@ export const Areas = () => {
         </Link>
         </SectionAreaItems>
         <SectionAreaItems>
-        <Link to='/areas/legales'>
+        <Link to='/areas/fondos'>
           <SectionImg src='https://i.pinimg.com/originals/db/b6/90/dbb69036f55e716526a6554a9514e3ed.jpg'/>
           <SectionHoverSubtilte>
             <SectionAreaSubtilte> Desarrollo de fondos</SectionAreaSubtilte>
@@ -46,7 +46,7 @@ export const Areas = () => {
         </Link>
         </SectionAreaItems>
       <SectionAreaItems>
-        <Link to='/areas/legales'>
+        <Link to='/areas/comunicacion'>
           <SectionImg src='https://i.pinimg.com/originals/db/b6/90/dbb69036f55e716526a6554a9514e3ed.jpg'/>
           <SectionHoverSubtilte>
            <SectionAreaSubtilte> Comunicacion</SectionAreaSubtilte>
@@ -55,7 +55,7 @@ export const Areas = () => {
         </Link>
         </SectionAreaItems>
       <SectionAreaItems>
-        <Link to='/areas/legales'>
+        <Link to='/areas/viviendas'>
           <SectionImg src='https://i.pinimg.com/originals/db/b6/90/dbb69036f55e716526a6554a9514e3ed.jpg'/>
           <SectionHoverSubtilte>
             <SectionAreaSubtilte>Vivienda</SectionAreaSubtilte>
@@ -64,7 +64,7 @@ export const Areas = () => {
         </Link>
         </SectionAreaItems>
       <SectionAreaItems>
-        <Link to='/areas/legales'>
+        <Link to='/areas/gestion'>
           <SectionImg src='https://i.pinimg.com/originals/db/b6/90/dbb69036f55e716526a6554a9514e3ed.jpg'/>
           <SectionHoverSubtilte>
             <SectionAreaSubtilte>Gestion Comunitaria</SectionAreaSubtilte>
@@ -72,7 +72,7 @@ export const Areas = () => {
         </Link>
         </SectionAreaItems>
       <SectionAreaItems>
-        <Link to='/areas/legales'>
+        <Link to='/areas/voluntariado'>
           <SectionImg src='https://i.pinimg.com/originals/db/b6/90/dbb69036f55e716526a6554a9514e3ed.jpg'/>
           <SectionHoverSubtilte>
            <SectionAreaSubtilte>Voluntariado</SectionAreaSubtilte>
@@ -82,7 +82,7 @@ export const Areas = () => {
         </SectionAreaItems>
       
         <SectionAreaItems>
-        <Link to='/areas/legales'>
+        <Link to='/areas/investigacion'>
           <SectionImg src='https://i.pinimg.com/originals/db/b6/90/dbb69036f55e716526a6554a9514e3ed.jpg'/>
           <SectionHoverSubtilte>
             <SectionAreaSubtilte>investigacion</SectionAreaSubtilte>
