@@ -30,7 +30,7 @@ export const NavBar = () => {
 
           <Link to="/">
             <MenuItem onClick={()=>setShowMobileMenu(!showMobileMenu)}>
-              INICiO
+              INICIO
             </MenuItem>
           </Link>
           <Link to="/areas/">
