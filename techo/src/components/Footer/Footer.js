@@ -60,12 +60,12 @@ export const Footer = () => {
 
       <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 123, 255, 1)' }}>
         © Copyright 2022,{'\u00A0'}
-        <a className='text-white' href='https://google.com/'>
-          Joaquin
+        <a className='text-white' href='https://www.linkedin.com/in/joaquin1998/'>
+          Joaquin Toledo
         </a>
         {'\u00A0'}{'\u00A0'} & {'\u00A0'}{'\u00A0'}
-        <a className='text-white' href='https://google.com/'>
-          Duvan
+        <a className='text-white' href='https://www.linkedin.com/in/duvan-albeiro-mendivelso-caicedo-45a803122/'>
+          Duvan Caicedo
         </a>
       </div>
     </MDBFooter>
