@@ -15,6 +15,7 @@ import { Viviendas } from './components/AllAreas/Viviendas';
 import { AdminFinanzas } from './components/AllAreas/AdminFinanzas';
 import { Investigacion } from './components/AllAreas/Investigacion';
 import { Legales } from './components/AllAreas/Legales';
+import { Biblioteca } from './components/Biblioteca/Biblioteca';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Routes>
         <Route path="/" element={<MainPage/>} />
         <Route path='/herramientas/'element={<Herramientas/>} />
+        <Route path='/biblioteca/'element={<Biblioteca/>} />
         <Route path='/areas/' element={<Areas/>} />
         <Route path='/areas/legales' element={<Legales/>} />
         <Route path='/areas/fondos' element={<DesarrolloFondos/>} />

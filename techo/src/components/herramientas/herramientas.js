@@ -17,7 +17,7 @@ const herramientas = () => {
     <>
       <Header
       headerImg={'https://fondosmil.com/fondo/38782.jpg'}
-      title='HERRAMIENTAS'/>
+      title='Herramientas'/>
       <Container fluid="true" className="p-0">
         <Row >
           <Col >

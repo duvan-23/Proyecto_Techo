@@ -60,11 +60,11 @@ export const Footer = () => {
 
       <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 123, 255, 1)' }}>
         © Copyright 2022,{'\u00A0'}
-        <a className='text-white' href='https://www.linkedin.com/in/joaquin1998/'>
+        <a className='text-white' href='https://www.linkedin.com/in/joaquin1998/' target="_blank" rel="noopener">
           Joaquin Toledo
         </a>
         {'\u00A0'}{'\u00A0'} & {'\u00A0'}{'\u00A0'}
-        <a className='text-white' href='https://www.linkedin.com/in/duvan-albeiro-mendivelso-caicedo-45a803122/'>
+        <a className='text-white' href='https://www.linkedin.com/in/duvan-albeiro-mendivelso-caicedo-45a803122/' target="_blank" rel="noopener">
           Duvan Caicedo
         </a>
       </div>
