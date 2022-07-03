@@ -45,7 +45,7 @@ export const NavBar = () => {
           </Link>
           <Link to="/biblioteca/">
             <MenuItem onClick={()=>setShowMobileMenu(!showMobileMenu)}>
-              Biblioteca TECHO
+              BIBLIOTECA TECHO
             </MenuItem>
           </Link>
 

@@ -21,7 +21,7 @@ export const Areas = () => {
         <Link to='/areas/adminyfinanzas'>
           <SectionImg src='https://i.pinimg.com/originals/db/b6/90/dbb69036f55e716526a6554a9514e3ed.jpg'/>
           <SectionHoverSubtilte>
-            <SectionAreaSubtilte>Admin y Finanzas</SectionAreaSubtilte>
+            <SectionAreaSubtilte>Administración</SectionAreaSubtilte>
 
           </SectionHoverSubtilte>
         </Link>
@@ -85,7 +85,7 @@ export const Areas = () => {
         <Link to='/areas/investigacion'>
           <SectionImg src='https://i.pinimg.com/originals/db/b6/90/dbb69036f55e716526a6554a9514e3ed.jpg'/>
           <SectionHoverSubtilte>
-            <SectionAreaSubtilte>investigacion</SectionAreaSubtilte>
+            <SectionAreaSubtilte>Investigación</SectionAreaSubtilte>
 
           </SectionHoverSubtilte>
         </Link>
