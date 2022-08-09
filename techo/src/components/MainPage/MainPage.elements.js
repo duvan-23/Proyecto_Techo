@@ -1,6 +1,15 @@
 import styled from 'styled-components'
 
 
+export const Header=styled.div`
+height: 600px;
+background-image: url(https://techo.org/wp-content/uploads/2021/11/destacada-para-noticias.png);
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+color: white;
+
+`
 export const ContainerMainPage=styled.div`
     width:30%;
     margin:auto;

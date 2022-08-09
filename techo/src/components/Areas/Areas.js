@@ -9,7 +9,7 @@ export const Areas = () => {
   return (
     <>
     <Header
-    headerImg={'https://fondosmil.com/fondo/38783.jpg'}
+    headerImg={'https://techo.org/wp-content/uploads/2021/11/destacada-para-noticias.png'}
     title='Areas'/>
     <Title
     title='TECHO AREAS'/>
@@ -19,7 +19,7 @@ export const Areas = () => {
       <SectionContainerArea>
         <SectionAreaItems>
         <Link to='/areas/adminyfinanzas'>
-          <SectionImg src='https://i.pinimg.com/originals/db/b6/90/dbb69036f55e716526a6554a9514e3ed.jpg'/>
+          <SectionImg src='https://techo.org/wp-content/uploads/2021/11/destacada-para-noticias.png'/>
           <SectionHoverSubtilte>
             <SectionAreaSubtilte>Administración</SectionAreaSubtilte>
 
@@ -29,7 +29,7 @@ export const Areas = () => {
 
       <SectionAreaItems>
         <Link to='/areas/legales'>
-          <SectionImg src='https://i.pinimg.com/originals/db/b6/90/dbb69036f55e716526a6554a9514e3ed.jpg'/>
+          <SectionImg src='https://techo.org/wp-content/uploads/2021/11/destacada-para-noticias.png'/>
           <SectionHoverSubtilte>
             <SectionAreaSubtilte>Legales</SectionAreaSubtilte>
 
@@ -38,7 +38,7 @@ export const Areas = () => {
         </SectionAreaItems>
         <SectionAreaItems>
         <Link to='/areas/fondos'>
-          <SectionImg src='https://i.pinimg.com/originals/db/b6/90/dbb69036f55e716526a6554a9514e3ed.jpg'/>
+          <SectionImg src='https://techo.org/wp-content/uploads/2021/11/destacada-para-noticias.png'/>
           <SectionHoverSubtilte>
             <SectionAreaSubtilte> Desarrollo de fondos</SectionAreaSubtilte>
 
@@ -47,7 +47,7 @@ export const Areas = () => {
         </SectionAreaItems>
       <SectionAreaItems>
         <Link to='/areas/comunicacion'>
-          <SectionImg src='https://i.pinimg.com/originals/db/b6/90/dbb69036f55e716526a6554a9514e3ed.jpg'/>
+          <SectionImg src='https://techo.org/wp-content/uploads/2021/11/destacada-para-noticias.png'/>
           <SectionHoverSubtilte>
            <SectionAreaSubtilte> Comunicacion</SectionAreaSubtilte>
 
@@ -56,7 +56,7 @@ export const Areas = () => {
         </SectionAreaItems>
       <SectionAreaItems>
         <Link to='/areas/viviendas'>
-          <SectionImg src='https://i.pinimg.com/originals/db/b6/90/dbb69036f55e716526a6554a9514e3ed.jpg'/>
+          <SectionImg src='https://techo.org/wp-content/uploads/2021/11/destacada-para-noticias.png'/>
           <SectionHoverSubtilte>
             <SectionAreaSubtilte>Vivienda</SectionAreaSubtilte>
 
@@ -65,7 +65,7 @@ export const Areas = () => {
         </SectionAreaItems>
       <SectionAreaItems>
         <Link to='/areas/gestion'>
-          <SectionImg src='https://i.pinimg.com/originals/db/b6/90/dbb69036f55e716526a6554a9514e3ed.jpg'/>
+          <SectionImg src='https://techo.org/wp-content/uploads/2021/11/destacada-para-noticias.png'/>
           <SectionHoverSubtilte>
             <SectionAreaSubtilte>Gestion Comunitaria</SectionAreaSubtilte>
           </SectionHoverSubtilte>
@@ -73,7 +73,7 @@ export const Areas = () => {
         </SectionAreaItems>
       <SectionAreaItems>
         <Link to='/areas/voluntariado'>
-          <SectionImg src='https://i.pinimg.com/originals/db/b6/90/dbb69036f55e716526a6554a9514e3ed.jpg'/>
+          <SectionImg src='https://techo.org/wp-content/uploads/2021/11/destacada-para-noticias.png'/>
           <SectionHoverSubtilte>
            <SectionAreaSubtilte>Voluntariado</SectionAreaSubtilte>
 
@@ -83,7 +83,7 @@ export const Areas = () => {
       
         <SectionAreaItems>
         <Link to='/areas/investigacion'>
-          <SectionImg src='https://i.pinimg.com/originals/db/b6/90/dbb69036f55e716526a6554a9514e3ed.jpg'/>
+          <SectionImg src='https://techo.org/wp-content/uploads/2021/11/destacada-para-noticias.png'/>
           <SectionHoverSubtilte>
             <SectionAreaSubtilte>Investigación</SectionAreaSubtilte>
 

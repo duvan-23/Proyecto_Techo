@@ -16,7 +16,7 @@ const herramientas = () => {
   return (
     <>
       <Header
-      headerImg={'https://fondosmil.com/fondo/38782.jpg'}
+      headerImg={'https://techo.org/wp-content/uploads/2021/11/destacada-para-noticias.png'}
       title='Herramientas'/>
       <Container fluid="true" className="p-0">
         <Row >

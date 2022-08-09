@@ -18,6 +18,7 @@ export const AdminFinanzas = () => {
         />
         <Title title='Administración'/>
         <CardMainPage
+        img='https://techo.org/wp-content/uploads/2021/11/destacada-para-noticias.png'
         title='Area Administración'
         text='“Somos una organización conformada por jóvenes voluntarios y voluntarias junto con habitantes de asentamientos populares de América Latina."'/>
         

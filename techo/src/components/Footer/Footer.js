@@ -30,7 +30,7 @@ import {
 
 export const Footer = () => {
   return (
-    <MDBFooter className='text-center text-white' style={{backgroundColor: 'rgba(0, 123, 255, 0.9)' }}>
+    <MDBFooter className='text-center text-white ' style={{backgroundColor: 'rgba(0, 123, 255, 0.9)' }}>
       <MDBContainer className='p-4 pb-0'>
         <section className='mb-4'>
           <a className='btn btn-outline-light btn-floating m-1 mr-2 ico' href='#!' role='button'style={{'borderRadius':'6px'}}>
